@@ -1,17 +1,34 @@
-# home_page_app
+# Update README with more details
+echo "# Home Page App
 
-A new Flutter project.
+A beautiful Flutter home page app that fetches real data from multiple APIs.
 
-## Getting Started
+## Features
+- 🛍️ **Products** - Real products from FakeStore API
+- 📝 **Posts** - Posts from JSONPlaceholder API
+- 💬 **Comments** - Add, like, and reply to comments
+- 🎥 **Videos** - YouTube videos integration
+- ⭐ **Reviews** - Product reviews and ratings
+- ❤️ **Like System** - Like posts and comments
+- 📱 **Responsive** - Works on Android, iOS, and Web
 
-This project is a starting point for a Flutter application.
+## APIs Used
+- [FakeStore API](https://fakestoreapi.com) - Products
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com) - Posts & Comments
+- [YouTube Data API](https://developers.google.com/youtube/v3) - Videos
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
+1. Clone the repository
+2. Run \`flutter pub get\`
+3. Add your YouTube API key in \`lib/services/api_service.dart\`
+4. Run \`flutter run\`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
+[Add screenshots here]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Created By
+Rediet Chane" > README.md
+
+git add README.md
+git commit -m "Update README with features"
+git push
